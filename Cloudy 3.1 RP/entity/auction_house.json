@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:auction_house",
+			"materials": {
+				"default": "villager_v2"
+			},
+			"textures": {
+				"default": "textures/entity/auction_house"
+			},
+			"geometry": {
+				"default": "geometry.npc_stand"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

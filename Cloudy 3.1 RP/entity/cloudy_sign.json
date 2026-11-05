@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:nebula_sign",
+			"materials": {
+				"default": "entity_emissive"
+			},
+			"textures": {
+				"default": "textures/entity/cloudy_sign"
+			},
+			"geometry": {
+				"default": "geometry.cloudy_sign"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

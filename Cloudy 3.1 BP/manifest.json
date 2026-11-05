@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Null"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Cloudy 3.1",
+		"description": "Cloudy Factions 3.1",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "0ea19391-241a-4aea-a854-f9934b1947e0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "93b944bf-af80-4a1d-9cba-3e21e0683b3c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d2b08c78-a807-4d2e-99f5-9f3eecadacf8",
+			"entry": "scripts/entry.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.7.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0-beta"
+		}
+	]
+}

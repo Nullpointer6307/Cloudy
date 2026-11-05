@@ -1,0 +1,123 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "common_lootbag": {
+      "textures": "textures/items/common_lootbag"
+    },
+    "rare_lootbag": {
+      "textures": "textures/items/rare_lootbag"
+    },
+    "epic_lootbag": {
+      "textures": "textures/items/epic_lootbag"
+    },
+    "legendary_lootbag": {
+      "textures": "textures/items/legendary_lootbag"
+    },
+    "mythical_lootbag": {
+      "textures": "textures/items/mythical_lootbag"
+    },
+    "common_key": {
+      "textures": "textures/items/common_key"
+    },
+    "rare_key": {
+      "textures": "textures/items/rare_key"
+    },
+    "epic_key": {
+      "textures": "textures/items/epic_key"
+    },
+    "legendary_key": {
+      "textures": "textures/items/legendary_key"
+    },
+    "mythical_key": {
+      "textures": "textures/items/mythical_key"
+    },
+    "main_menu": {
+      "textures": "textures/items/main_menu"
+    },
+    "stone_pickaxe": {
+      "textures": "textures/items/stone_pickaxe"
+    },
+    "anvil_pickaxe": {
+      "textures": "textures/items/anvil_pickaxe"
+    },
+    "apple_pickaxe": {
+      "textures": "textures/items/apple_pickaxe"
+    },
+    "cactus_pickaxe": {
+      "textures": "textures/items/cactus_pickaxe"
+    },
+    "cocoabean_pickaxe": {
+      "textures": "textures/items/cocoabean_pickaxe"
+    },
+    "emerald_pickaxe": {
+      "textures": "textures/items/emerald_pickaxe"
+    },
+    "ender_pickaxe": {
+      "textures": "textures/items/ender_pickaxe"
+    },
+    "extreme_pickaxe": {
+      "textures": "textures/items/extreme_pickaxe"
+    },
+    "glass_pickaxe": {
+      "textures": "textures/items/glass_pickaxe"
+    },
+    "glow_stone_pickaxe": {
+      "textures": "textures/items/glow_stone_pickaxe"
+    },
+    "golden_apple_pickaxe": {
+      "textures": "textures/items/golden_apple_pickaxe"
+    },
+    "ice_pickaxe": {
+      "textures": "textures/items/ice_pickaxe"
+    },
+    "lapis_lazuli_pickaxe": {
+      "textures": "textures/items/lapis_lazuli_pickaxe"
+    },
+    "magma_pickaxe": {
+      "textures": "textures/items/magma_pickaxe"
+    },
+    "mega_pickaxe": {
+      "textures": "textures/items/mega_pickaxe"
+    },
+    "nether_star_pickaxe": {
+      "textures": "textures/items/nether_star_pickaxe"
+    },
+    "netherrack_pickaxe": {
+      "textures": "textures/items/netherrack_pickaxe"
+    },
+    "pumpkin_pickaxe": {
+      "textures": "textures/items/pumpkin_pickaxe"
+    },
+    "redstone_pickaxe": {
+      "textures": "textures/items/redstone_pickaxe"
+    },
+    "slime_pickaxe": {
+      "textures": "textures/items/slime_pickaxe"
+    },
+    "wool_pickaxe": {
+      "textures": "textures/items/wool_pickaxe"
+    },
+    "admin_book": {
+      "textures": "textures/items/admin_book"
+    },
+    "treasure_chest": {
+      "textures": "textures/items/treasure_chest"
+    },
+    "book_of_wealth": {
+      "textures": "textures/items/book_of_wealth"
+    },
+    "book_of_fortune": {
+      "textures": "textures/items/book_of_fortune"
+    },
+    "perk_crystal": {
+      "textures": "textures/items/perk_crystal"
+    },
+    "2x_gem_booster": {
+      "textures": "textures/items/2x_gem_booster"
+    },
+    "forgery_potion_one": {
+      "textures": "textures/items/forgery_potion_one"
+    }
+  }
+}

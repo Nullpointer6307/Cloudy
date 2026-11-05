@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:crates_npc",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/chest"
+			},
+			"geometry": {
+				"default": "geometry.chest_one"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

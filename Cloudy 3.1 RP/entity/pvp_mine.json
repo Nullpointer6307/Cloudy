@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:pvp_mine",
+			"materials": {
+				"default": "villager_v2"
+			},
+			"textures": {
+				"default": "textures/entity/pvp_mine"
+			},
+			"geometry": {
+				"default": "geometry.npc_stand"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

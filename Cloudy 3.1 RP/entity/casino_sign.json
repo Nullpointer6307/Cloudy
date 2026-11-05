@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:casino_sign",
+			"materials": {
+				"default": "entity_emissive"
+			},
+			"textures": {
+				"default": "textures/entity/casino_sign"
+			},
+			"geometry": {
+				"default": "geometry.casino_sign"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

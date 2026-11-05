@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Cloudy 3.1 BP",
+			"path": "."
+		},
+		{
+			"name": "Cloudy 3.1 RP",
+			"path": "../../development_resource_packs/Cloudy 3.1 RP"
+		},
+		{
+			"path": "../../../../../../../../../Downloads/bedrock-samples-1.21.100.6/bedrock-samples-1.21.100.6/behavior_pack"
+		},
+		{
+			"path": "../../../../../../../../../Downloads/bedrock-samples-1.21.100.6/bedrock-samples-1.21.100.6/resource_pack"
+		}
+	],
+	"settings": {}
+}

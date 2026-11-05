@@ -1,0 +1,29 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.chunk": {
+            "animation_length": 86399.9,
+            "loop": true,
+            "particle_effects": {
+                "0.0": [
+                    {
+                        "effect": "chunk",
+                        "pre_effect_script": "v.re_pos_x = 8;	v.re_pos_y = 8;		v.re_pos_z = 0.01;		v.dir_x = 0;	v.dir_z = 1;"
+                    }, //north
+                    {
+                        "effect": "chunk",
+                        "pre_effect_script": "v.re_pos_x = 15.99;	v.re_pos_y = 8;		v.re_pos_z = 8;		v.dir_x = -1;	v.dir_z = 0;"
+                    }, //east
+                    {
+                        "effect": "chunk",
+                        "pre_effect_script": "v.re_pos_x = 8;	v.re_pos_y = 8;		v.re_pos_z = 15.99;	v.dir_x = 0;	v.dir_z = -1;"
+                    }, //south
+                    {
+                        "effect": "chunk",
+                        "pre_effect_script": "v.re_pos_x = 0.01;	v.re_pos_y = 8;		v.re_pos_z = 8;		v.dir_x = 1;	v.dir_z = 0;"
+                    } //west
+                ]
+            }
+        }
+    }
+}

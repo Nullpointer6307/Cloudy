@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "enchants.explosion": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/explosion"]
+    },
+    "enchants.jackhammer": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/jackhammer"]
+    },
+    "enchants.blackhole": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/blackhole"]
+    },
+    "enchants.shatter": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/shatter"]
+    },
+    "enchants.tectonic": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/tectonic"]
+    },
+    "enchants.merchant": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/merchant"]
+    },
+    "enchants.prosperity": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/prosperity"]
+    },
+    "enchants.overdrive": {
+      "category": "neutral",
+      "sounds": ["sounds/enchants/overdrive"]
+    }
+  }
+}

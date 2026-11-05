@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "osuea:main_menu",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:glint": false,
+			"minecraft:icon": "main_menu",
+			"minecraft:display_name": {
+				"value": "§aMain Menu\n\n§aClick to use"
+			},
+			"minecraft:custom_components": [
+				"cloudy:mainMenu"
+			]
+		}
+	}
+}

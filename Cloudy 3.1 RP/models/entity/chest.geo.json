@@ -1,0 +1,157 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chest_one",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [
+					0,
+					1.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "chest",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "lid",
+					"parent": "chest",
+					"pivot": [
+						0,
+						10,
+						7
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7.01,
+								17,
+								-7.01
+							],
+							"size": [
+								14.02,
+								5.5,
+								14.02
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										14,
+										14
+									],
+									"uv_size": [
+										14,
+										5
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										14
+									],
+									"uv_size": [
+										14,
+										5
+									]
+								},
+								"south": {
+									"uv": [
+										42,
+										14
+									],
+									"uv_size": [
+										14,
+										5
+									]
+								},
+								"west": {
+									"uv": [
+										28,
+										14
+									],
+									"uv_size": [
+										14,
+										5
+									]
+								},
+								"up": {
+									"uv": [
+										14,
+										0
+									],
+									"uv_size": [
+										14,
+										14
+									]
+								},
+								"down": {
+									"uv": [
+										28,
+										14
+									],
+									"uv_size": [
+										14,
+										-14
+									]
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								16,
+								-8.002
+							],
+							"size": [
+								2,
+								4,
+								0.998
+							],
+							"uv": [
+								1,
+								1
+							]
+						}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "chest",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7,
+								8,
+								-7
+							],
+							"size": [
+								14,
+								10,
+								14
+							],
+							"uv": [
+								0,
+								19
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

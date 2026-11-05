@@ -1,0 +1,73 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.head_cosmetic": {
+			"geometry": "array.geos[q.property('osuea:head_cosmetic')]",
+			"materials": [
+				{
+					"*": "array.materials[q.property('osuea:head_cosmetic')]"
+				}
+			],
+			"textures": [
+				"array.textures[q.property('osuea:head_cosmetic')]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.textures": [
+						"Texture.default",
+						"Texture.halo",
+						"texture.midnight_halo"
+					]
+				},
+				"geometries": {
+					"Array.geos": [
+						"Geometry.default",
+						"Geometry.halo",
+						"Geometry.halo"
+					]
+				},
+				"materials": {
+					"Array.materials": [
+						"Material.default",
+						"Material.halo",
+						"Material.halo"
+					]
+				}
+			}
+		},
+		"controller.render.chest_cosmetic": {
+			"geometry": "array.geos[q.property('osuea:chest_cosmetic')]",
+			"materials": [
+				{
+					"*": "array.materials[q.property('osuea:chest_cosmetic')]"
+				}
+			],
+			"textures": [
+				"array.textures[q.property('osuea:chest_cosmetic')]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.textures": [
+						"Texture.default",
+						"Texture.wings",
+						"texture.midnight_wings"
+					]
+				},
+				"geometries": {
+					"Array.geos": [
+						"Geometry.default",
+						"Geometry.wings",
+						"Geometry.wings"
+					]
+				},
+				"materials": {
+					"Array.materials": [
+						"Material.default",
+						"Material.wings",
+						"Material.wings"
+					]
+				}
+			}
+		}
+	}
+}

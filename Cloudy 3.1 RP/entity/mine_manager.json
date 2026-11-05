@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:mine_manager",
+			"materials": {
+				"default": "villager_v2"
+			},
+			"textures": {
+				"default": "textures/entity/mine_manager"
+			},
+			"geometry": {
+				"default": "geometry.npc_stand"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

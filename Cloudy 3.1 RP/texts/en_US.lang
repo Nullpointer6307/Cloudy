@@ -1,0 +1,11 @@
+item.itemLock.cantDrop=aaaa
+item.itemLock.cantMove=§3Interactive Menu
+item.itemLock.hoverText.cantBe.moved=§o§gClick §7to Open§r
+item.itemLock.hoverText.cantBe.dropped=§r 
+item.itemLock.hoverText.cantBe.removed=§r
+item.itemLock.hoverText.cantBe.craftedWith=§o§gdiscord.gg/sTSUGEK
+
+item.itemLock.popupNotice.cantDrop=cant drop
+item.itemLock.popupNotice.cantMove=§aYou're Playing:
+item.itemLock.keepOnDeath=§bCloudy §cFactions
+tile.cloudy:testspawner.name=Test Spawner

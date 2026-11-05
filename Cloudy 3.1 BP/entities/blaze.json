@@ -1,0 +1,115 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:blaze",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "cloudy:fromspawner": {
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    "component_groups": {
+      "cloudy:fromspawner": {
+        "minecraft:health": {
+          "value": 1000,
+          "max": 1000
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                }
+              },
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fire_tick",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "lava",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/blaze.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 1.8
+      },
+      "minecraft:movement": {
+        "value": 0.23
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_contact_with_water"
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:nameable": {
+        "always_show": true
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "blaze",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "cloudy:setfromspawner": {
+        "add": {
+          "component_groups": [
+            "cloudy:fromspawner"
+          ]
+        }
+      }
+    }
+  }
+}

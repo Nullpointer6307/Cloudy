@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:ghost",
+			"materials": {
+				"default": "entity_alphablend",
+				"halo": "entity_alphatest",
+				"wings": "entity_alphatest",
+				"cape": "entity_alphatest",
+				"animated": "player_animated",
+				"spectator": "player_spectator"
+			},
+			"textures": {
+				"default": "textures/entity/ghost",
+				"halo": "textures/entity/cosmetics/halo",
+				"wings": "textures/entity/cosmetics/wings",
+				"midnight_halo": "textures/entity/cosmetics/midnight_halo",
+				"midnight_wings": "textures/entity/cosmetics/midnight_wings",
+				"cape": "textures/entity/cape_invisible"
+			},
+			"geometry": {
+				"default": "geometry.ghost",
+				"halo": "geometry.halo",
+				"wings": "geometry.wings",
+				"midnight_halo": "geometry.halo",
+				"midnight_wings": "geometry.wings",
+				"cape": "geometry.cape"
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.head_cosmetic",
+				"controller.render.chest_cosmetic"
+			]
+		}
+	}
+}

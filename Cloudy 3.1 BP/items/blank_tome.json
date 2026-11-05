@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cloudy:blank_tome"
+        },
+        "components": {
+            "minecraft:glint": false,
+            "minecraft:icon": "book_enchanted",
+            "minecraft:display_name": {
+                "value": "§eBlank Tome"
+            },
+            "minecraft:custom_components": [
+                "cloudy:tome"
+            ]
+        }
+    }
+}

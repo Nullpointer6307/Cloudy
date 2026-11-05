@@ -1,0 +1,76 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Cloudy 3.0",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"cloudy_testspawner": {
+			"textures": [
+				"textures/blocks/spawners/testspawner"
+			]
+		},
+		"cloudy_testspawnermax": {
+			"textures": "textures/blocks/spawners/testspawnermax"
+		},
+		"chickenspawner": {
+			"textures": "textures/blocks/spawners/chickenspawner"
+		},
+		"chickenspawnermax": {
+			"textures": "textures/blocks/spawners/chickenspawnermax"
+		},
+		"pigspawner": {
+			"textures": "textures/blocks/spawners/pigspawner"
+		},
+		"pigspawnermax": {
+			"textures": "textures/blocks/spawners/pigspawnermax"
+		},
+		"cowspawner": {
+			"textures": "textures/blocks/spawners/cowspawner"
+		},
+		"cowspawnermax": {
+			"textures": "textures/blocks/spawners/cowspawnermax"
+		},
+		"sheepspawner": {
+			"textures": "textures/blocks/spawners/sheepspawner"
+		},
+		"sheepspawnermax": {
+			"textures": "textures/blocks/spawners/sheepspawnermax"
+		},
+		"zombiespawner": {
+			"textures": "textures/blocks/spawners/zombiespawner"
+		},
+		"zombiespawnermax": {
+			"textures": "textures/blocks/spawners/zombiespawnermax"
+		},
+		"skeletonspawner": {
+			"textures": "textures/blocks/spawners/skeletonspawner"
+		},
+		"skeletonspawnermax": {
+			"textures": "textures/blocks/spawners/skeletonspawnermax"
+		},
+		"creeperspawner": {
+			"textures": "textures/blocks/spawners/creeperspawner"
+		},
+		"creeperspawnermax": {
+			"textures": "textures/blocks/spawners/creeperspawnermax"
+		},
+		"blazespawner": {
+			"textures": "textures/blocks/spawners/blazespawner"
+		},
+		"blazespawnermax": {
+			"textures": "textures/blocks/spawners/blazespawnermax"
+		},
+		"endermanspawner": {
+			"textures": "textures/blocks/spawners/endermanspawner"
+		},
+		"endermanspawnermax": {
+			"textures": "textures/blocks/spawners/endermanspawnermax"
+		},
+		"irongolemspawner": {
+			"textures": "textures/blocks/spawners/irongolemspawner"
+		},
+		"irongolemspawnermax": {
+			"textures": "textures/blocks/spawners/irongolemspawnermax"
+		}
+	}
+}

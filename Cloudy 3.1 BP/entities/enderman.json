@@ -1,0 +1,131 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:enderman",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "cloudy:fromspawner": {
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    "component_groups": {
+      "cloudy:fromspawner": {
+        "minecraft:health": {
+          "value": 1000,
+          "max": 1000
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                }
+              },
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fire_tick",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "lava",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:renders_when_invisible": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 5 : 0"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "enderman",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:nameable": {
+        "always_show": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/enderman.json"
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          },
+          {
+            "filters": {
+              "test": "in_contact_with_water"
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.9
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "avoid_water": true
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "cloudy:setfromspawner": {
+        "add": {
+          "component_groups": [
+            "cloudy:fromspawner"
+          ]
+        }
+      }
+    }
+  }
+}

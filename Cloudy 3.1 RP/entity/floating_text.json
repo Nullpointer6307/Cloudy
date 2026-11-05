@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "osuea:floating_text",
+			"materials": {
+				"default": "villager_v2"
+			},
+			"textures": {
+				"default": "textures/entity/none"
+			},
+			"geometry": {
+				"default": "geometry.default2"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

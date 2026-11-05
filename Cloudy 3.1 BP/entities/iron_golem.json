@@ -1,0 +1,112 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:iron_golem",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "cloudy:fromspawner": {
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    "component_groups": {
+      "cloudy:fromspawner": {
+        "minecraft:health": {
+          "value": 1000,
+          "max": 1000
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                }
+              },
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fire_tick",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "lava",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:type_family": {
+        "family": [
+          "irongolem",
+          "mob"
+        ]
+      },
+      "minecraft:nameable": {
+        "always_show": true
+      },
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 2.9
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/iron_golem.json"
+      },
+      "minecraft:health": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self"
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:leashable": {},
+      "minecraft:leashable_to": {},
+      "minecraft:balloonable": {
+        "mass": 2.0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "cloudy:setfromspawner": {
+        "add": {
+          "component_groups": [
+            "cloudy:fromspawner"
+          ]
+        }
+      }
+    }
+  }
+}
